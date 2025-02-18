@@ -8,7 +8,7 @@ interface RSVPData {
 }
 
 // Change this to your proxy server URL (e.g., when deployed)
-const PROXY_URL = 'http://localhost:8080/rsvp';
+const PROXY_URL = 'https://veere-di-wedding.vercel.app/rsvp';
 
 export const submitRSVP = async (
   data: Omit<RSVPData, 'timestamp'>
